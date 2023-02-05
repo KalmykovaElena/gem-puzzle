@@ -163,6 +163,7 @@ body{
     font-family: 'Kaushan Script', cursive;
     box-shadow: -1px -10px 30px 5px #fff, 0px 7px 21px 5px #12c2bc;
     border-radius: 10px;
+    cursor: pointer;
 }
 .wrapperInfo{
     position: absolute;
