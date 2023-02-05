@@ -126,7 +126,6 @@ body{
 .modal{
     position: absolute;
     width:70vw;
-    height: 70vh;
     background-image: url("./assets/button2.jpg");
     background-size: 100% 100%;
     z-index: 1;
@@ -147,6 +146,12 @@ body{
 }
 .hide{
     visibility: hidden;
+}
+.modal .modal-info__wrapper{
+    flex-grow: 1;
+}
+.modal .continue{
+    margin-bottom: 10px;
 }
 .modal-button{
     width:50%;

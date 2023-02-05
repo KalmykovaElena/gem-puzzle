@@ -412,10 +412,12 @@ infoButton.addEventListener('click', () => {
     }
     clearCountingTime()
     let modalInner=`
+<div class="modal-info__wrapper">
      <div>Информация</div>
      <div class="modal-description">Цель игры - собрать все цифры по возрастанию начиная с верхнего левого угла</div>
      <div class="modal-description">Для передвижения фишек Вы можете кликнуть мышкой по фишке рядом с пустой ячейкой, либо перетянуть мышкой доступную фишку на свободное место</div>
      <div class="modal-description">Для запуска таймера должен быть сделан хотябы один ход</div>
+     </div>
      <div class="modal-button continue">Продолжить</div>
     `
 
